@@ -1,0 +1,471 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 17.4.0 d001Jul-22-2022 at 14:15:06}
+primitive 'T POINT R_TPD2_OUTPUT';
+  pin
+    'TP':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='T POINT R';
+    JEDEC_TYPE='TPD2';
+    VALUE='OUTPUT';
+  end_body;
+end_primitive;
+primitive 'CAP NP_SC0805_10U';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='SC0805';
+    VALUE='10u';
+  end_body;
+end_primitive;
+primitive 'CAP NP_SC0805_0.1U';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='SC0805';
+    VALUE='0.1u';
+  end_body;
+end_primitive;
+primitive 'CAP NP_SC0402_0.33U';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='SC0402';
+    VALUE='0.33u';
+  end_body;
+end_primitive;
+primitive 'CAP POL_SMD5X5_4MM_47U';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP POL';
+    JEDEC_TYPE='SMD5X5_4MM';
+    VALUE='47u';
+  end_body;
+end_primitive;
+primitive 'CAP NP_SC0805_47U';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='SC0805';
+    VALUE='47u';
+  end_body;
+end_primitive;
+primitive 'DIODE TVS BI-DIR_SOD882_VRWM=5.5V';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='DIODE TVS BI-DIR';
+    JEDEC_TYPE='SOD882';
+    VALUE='Vrwm=5.5V';
+  end_body;
+end_primitive;
+primitive 'LED_SD0603_VF=2.3V';
+  pin
+    'ANODE':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'CATHODE':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='LED';
+    JEDEC_TYPE='SD0603';
+    VALUE='Vf=2.3V';
+  end_body;
+end_primitive;
+primitive 'DIODE SCHOTTKY_SD0805_VF=450MV';
+  pin
+    'ANODE':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'CATHODE':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='DIODE SCHOTTKY';
+    JEDEC_TYPE='SD0805';
+    VALUE='Vf=450mV';
+  end_body;
+end_primitive;
+primitive 'INDUCTOR_SMD5_4X5_2X3MM_4.7U';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='INDUCTOR';
+    JEDEC_TYPE='SMD5_4X5_2X3MM';
+    VALUE='4.7u';
+  end_body;
+end_primitive;
+primitive 'GMI9767P-54DB_THRUHOLE2X2_54_GMI9767P-54DB';
+  pin
+    'MIC_OUT':
+      PIN_NUMBER='(1)';
+      OUTPUT_LOAD='(*)';
+    'GND':
+      PIN_NUMBER='(2)';
+      PINUSE='POWER';
+  end_pin;
+  body
+    PART_NAME='GMI9767P-54DB';
+    JEDEC_TYPE='THRUHOLE2X2_54';
+    VALUE='GMI9767P-54DB';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_SR0805_5K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='SR0805';
+    VALUE='5k';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_SR0805_10K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='SR0805';
+    VALUE='10k';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_SR0805_2.2K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='SR0805';
+    VALUE='2.2k';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_SR0805_7.15';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='SR0805';
+    VALUE='7.15';
+  end_body;
+end_primitive;
+primitive 'POT_SMDVARISTOR_1.5K';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'B':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'WIPER':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='POT';
+    JEDEC_TYPE='SMDVARISTOR';
+    VALUE='1.5k';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_SR0805_1M';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='SR0805';
+    VALUE='1M';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_SR0805_200';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='SR0805';
+    VALUE='200';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_SR0805_150K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='SR0805';
+    VALUE='150k';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_SR0805_110K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='SR0805';
+    VALUE='110k';
+  end_body;
+end_primitive;
+primitive 'T POINT R_TPD2_T POINT R';
+  pin
+    'TP':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='T POINT R';
+    JEDEC_TYPE='TPD2';
+    VALUE='T POINT R';
+  end_body;
+end_primitive;
+primitive 'INA217_DIP_8_ICS_INA217';
+  pin
+    'RG1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'RG2':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    'IN-':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*)';
+    'IN+':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(*)';
+    'V-':
+      PIN_NUMBER='(4)';
+      PINUSE='POWER';
+    'V+':
+      PIN_NUMBER='(7)';
+      PINUSE='POWER';
+    'OUT':
+      PIN_NUMBER='(6)';
+      OUTPUT_LOAD='(*)';
+    'REF':
+      PIN_NUMBER='(5)';
+      INPUT_LOAD='(*)';
+  end_pin;
+  body
+    PART_NAME='INA217';
+    JEDEC_TYPE='DIP_8_ICS';
+    VALUE='INA217';
+  end_body;
+end_primitive;
+primitive 'OPA137_SOT-23-5_OPA137';
+  pin
+    'OUT':
+      PIN_NUMBER='(1)';
+      OUTPUT_LOAD='(*)';
+    'V-':
+      PIN_NUMBER='(2)';
+      PINUSE='POWER';
+    'V+':
+      PIN_NUMBER='(5)';
+      PINUSE='POWER';
+    'IN-':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(*)';
+    'IN+':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(*)';
+  end_pin;
+  body
+    PART_NAME='OPA137';
+    JEDEC_TYPE='SOT-23-5';
+    VALUE='OPA137';
+  end_body;
+end_primitive;
+primitive 'FP6298_SOP-8EP_FP6298';
+  pin
+    'PGND':
+      PIN_NUMBER='(1)';
+      PINUSE='POWER';
+    'OC':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'VCC':
+      PIN_NUMBER='(3)';
+      PINUSE='POWER';
+    'EN':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(*)';
+    'GND':
+      PIN_NUMBER='(5)';
+      PINUSE='POWER';
+    'FB':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'NC':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    'LX':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    'EP':
+      PIN_NUMBER='(9)';
+      PINUSE='POWER';
+  end_pin;
+  body
+    PART_NAME='FP6298';
+    JEDEC_TYPE='SOP-8EP';
+    VALUE='FP6298';
+  end_body;
+end_primitive;
+primitive 'CJ7805_TO-252-2L_CJ7805';
+  pin
+    'IN':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*)';
+    'GND':
+      PIN_NUMBER='(2)';
+      PINUSE='POWER';
+    'OUT':
+      PIN_NUMBER='(3)';
+      OUTPUT_LOAD='(*)';
+  end_pin;
+  body
+    PART_NAME='CJ7805';
+    JEDEC_TYPE='TO-252-2L';
+    VALUE='CJ7805';
+  end_body;
+end_primitive;
+primitive 'LM2662_SOIC-8_LM2662';
+  pin
+    'FC':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*)';
+    'CAP+':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'GND':
+      PIN_NUMBER='(3)';
+      PINUSE='POWER';
+    'CAP-':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'OUT':
+      PIN_NUMBER='(5)';
+      OUTPUT_LOAD='(*)';
+    'LV':
+      PIN_NUMBER='(6)';
+      INPUT_LOAD='(*)';
+    'OSC':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    'V+':
+      PIN_NUMBER='(8)';
+      PINUSE='POWER';
+  end_pin;
+  body
+    PART_NAME='LM2662';
+    JEDEC_TYPE='SOIC-8';
+    VALUE='LM2662';
+  end_body;
+end_primitive;
+primitive 'T POINT R_TPD2_INPUT';
+  pin
+    'TP':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='T POINT R';
+    JEDEC_TYPE='TPD2';
+    VALUE='INPUT';
+  end_body;
+end_primitive;
+END.

@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : SMD5_4X5_2X3MM.dra                            )
+(    Software Version : unreleased                                    )
+(    Date/Time        : Fri Jul 22 14:34:27 2022                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Cadence/Cadence_SPB_17.4-2019/share/local/pcb/symbols
+    Name      = smd5_4x5_2x3mm.psm
+    User      = richi
+    Machine   = DESKTOP-9IQULQA
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

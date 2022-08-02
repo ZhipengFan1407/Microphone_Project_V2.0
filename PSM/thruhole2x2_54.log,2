@@ -1,0 +1,24 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : THRUHOLE2X2_54.dra                            )
+(    Software Version : unreleased                                    )
+(    Date/Time        : Thu Jul 21 09:53:44 2022                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Users/richi/Desktop/Microphone v2.0/PSM
+    Name      = thruhole2x2_54.psm
+    User      = richi
+    Machine   = DESKTOP-9IQULQA
+
+
+Create symbol started.
+ 
+ ERROR(SPMHCS-1): Symbol is missing a refdes. 
+
+ERROR(SPMHA1-291): Create symbol has been aborted.
+

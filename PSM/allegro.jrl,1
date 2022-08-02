@@ -1,0 +1,44 @@
+\t (00:00:01) allegro 17.4 P001 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Fri Jul 22 14:36:59 2022
+\t (00:00:01)         Host=DESKTOP-9IQULQA User=richi Pid=8884 CPUs=8
+\t (00:00:01) CmdLine= c:\cadence\cadence_spb_17.4-2019\tools\bin\allegro.exe C:\Cadence\Cadence_SPB_17.4-2019\share\local\pcb\symbols\TPD2.dra
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:01) Opening existing design...
+\i (00:00:04) fillin yes 
+\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged TPD2
+\d (00:00:04) Design opened: C:/Cadence/Cadence_SPB_17.4-2019/share/local/pcb/symbols/TPD2.dra
+\i (00:00:05) trapsize 477
+\i (00:00:05) trapsize 490
+\i (00:00:05) trapsize 477
+\i (00:00:05) trapsize 509
+\i (00:00:05) trapsize 509
+\i (00:00:06) generaledit 
+\i (00:00:06) prepopup 2.0693 0.1681
+\i (00:00:08) pop dyn_option_select '@:@Text edit' 
+\i (00:00:08) text edit 
+\i (00:00:12) setwindow form.textedit
+\i (00:00:12) FORM textedit str TP* 
+\i (00:00:12) FORM textedit done  
+\i (00:00:12) setwindow pcb
+\i (00:00:12) pick 0.0000 0.0000
+\t (00:00:12) Pick text to edit.
+\i (00:00:13) setwindow pcb
+\i (00:00:13) generaledit 
+\i (00:00:15) prepopup 1.9472 0.1376
+\i (00:00:17) pop dyn_option_select 'Change to layer@:@SILKSCREEN_TOP' 
+\i (00:00:17) change layer 
+\t (00:00:17) No DRC errors detected.
+\t (00:00:17) Changed 1 items out of 1 items found.
+\i (00:00:17) generaledit 
+\i (00:00:20) prepopup 2.0591 0.2189
+\i (00:00:23) pop dyn_option_select 'Change to layer@:@SILKSCREEN_TOP' 
+\i (00:00:23) change layer 
+\w (00:00:23) WARNING(SPMHGE-554): Text already matches option panel settings.
+\i (00:00:23) generaledit 
+\i (00:00:25) save 
+\i (00:00:26) fillin yes 
+\t (00:00:26) Symbol 'tpd2.psm' created.
+\i (00:00:26) generaledit 
+\i (00:00:29) exit 
+\t (00:00:30)     Journal end - Fri Jul 22 14:37:28 2022
